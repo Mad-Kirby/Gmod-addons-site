@@ -13,10 +13,27 @@
     
 }
 .cabecalho-imagem{
-    width: 15%;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .cabecalho-lista-item{
     display: inline-block;
     margin: 50px 16px;
     font-size: 40px;
+    
+
 }
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
