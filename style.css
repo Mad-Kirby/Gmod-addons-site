@@ -7,18 +7,19 @@
     background-color: #0082ff;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
-    padding: 24px 0;
+
     
 }
 .cabecalho-imagem{
     width: 20%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0px 400px;
+    
 }
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 50px 16px;
+    margin: 50px 500px 0px 0px;
     font-size: 40px;
     
 
@@ -41,16 +42,24 @@ a:link {
     margin-left: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 500%;
+    background-color: #0082ff;
 }
 .description-of-page2{
     margin-left: 12%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 165%;
+    background-color: #0082ff;
 }
+
 
 .description-of-pageadd{
    font-family: Arial, Helvetica, sans-serif;
     font-size: 165%;
     margin-left: 35%;
+    background-color: #0082ff;
 
+}
+
+hr.dashed{
+    border-top: 30px solid #0082ff;
 }
