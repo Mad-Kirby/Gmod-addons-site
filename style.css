@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -77,8 +78,7 @@ nav{
 
 body{
     background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,76,255,1) 35%, rgba(0,130,255,1) 100%); 
-
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,130,255,1) 58%); 
 }
 
 .mapsfigure{
@@ -117,17 +117,30 @@ margin-left: 300px;
 }
 
 .grid-container {
-    display: inline-grid;
-     ;
-     grid-row: auto
-    ;
-  }
-.grid-item{
- margin-left: 50px;
- margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: 1fr 1fr; /* Two equal-height rows */
+    gap: 10px; /* Gap between grid items */
+  margin-top: 20px;
+}
+
+
+
+.grid-item {
+    padding: 20px; /* Padding for grid items */
+    text-align: center; /* Center text within grid items */
+    
+}
+.grid-item img{
+   transition: transform 0.3s ease-in-out
+
+}
+
+.grid-item:hover img{
+    transform: scale(1.2);
 }
 
 .mapimg{
-    width: 35%;
+    width: 60% 
 }
 
