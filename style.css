@@ -1,33 +1,20 @@
 
-*{
-    margin: 0;
-    padding: 0;
-  
-}
 
 .cabecalho{
-    background-color: #0082ff;
     color: white;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid white;
-   
-
-    
 }
 .cabecalho-imagem{
     width: 20%;
-    background-color: #0082ff;
-    
 }
 .cabecalho-lista-item{
-    display: inline-block;
+    display: flex;
     margin: 50px 50px 0px 0px;
     font-size: 40px;
-    background-color: #0082ff;
-    
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 a:visited {
@@ -42,52 +29,44 @@ a:link {
 }
 
 .description-of-page{
-    margin-left: 10%;
+   
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 500%;
-    background-color: #0082ff;
+    font-size: 300%;  
     color: white;
 }
 .description-of-page2{
-    margin-left: 12%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 165%;
-    background-color: #0082ff;
     padding: 0px 0px 0px 0px;
     color: white;
+    background-color:transparent;
 }
 
 
 .description-of-pageadd{
    font-family: Arial, Helvetica, sans-serif;
     font-size: 165%;
-    margin-left: 35%;
-    background-color: #0082ff;
     color: white;
     padding-bottom: 10px;
-
+    background-color: transparent;
 }
 
-hr.dashed{
-    border-top: 30px solid #0082ff;
-}
+
 
 nav{
-    background-color: #0082ff;
+    background-color: transparent;
+    text-align: center;
 }
+
+
 
 body{
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,130,255,1) 58%); 
 }
 
-.mapsfigure{
-    margin-top: 100px;
-    margin-left: 28%;
-    width: 100%;
-    align-items: center;
-    
-}
+ 
+
 
 .mapsfigurecap{
 text-transform: uppercase;
@@ -95,16 +74,18 @@ font-size: 300%;
 margin-bottom: 30px;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
-margin-left: 300px;
+
 }
 
-.addonsfigure {
-    margin-left: 28%;
-
+section{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .addonsimagefig{
-    width: 63%;
+    width: 558px;
 }
 
 .addonsfigurecap{
@@ -113,7 +94,6 @@ margin-left: 300px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
-    margin-left: 285px; 
 }
 
 .grid-container {
@@ -137,7 +117,7 @@ margin-left: 300px;
 }
 
 .grid-item:hover img{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .mapimg{
